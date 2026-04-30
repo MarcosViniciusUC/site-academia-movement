@@ -59,6 +59,8 @@ header .logo img{
 header .menu nav ul{
     list-style: none;
     margin-left: 100px;
+    display: flex;
+    flex-wrap: nowrap;
 }
 
 header .menu nav ul li{
@@ -240,6 +242,7 @@ header .contato button:hover{
     }
     header .menu nav ul li{
         margin: 0px 25px 0px 25px;
+        font-size: 0.8em;
     }
 
     header .interface .logo img{
@@ -291,6 +294,7 @@ header .contato button:hover{
         color: red;
     }
 
+
     
 }
 
@@ -299,7 +303,7 @@ header .contato button:hover{
 /* estilização seção vantagens */
 section.vantagens{
     padding: 80px clamp(20px, 8vw, 170px);
-    background-image: url(../ChatGPT\ Image\ 18\ de\ abr.\ de\ 2026\,\ 20_12_27.png);
+    background-image: url(../images/ChatGPT\ Image\ 18\ de\ abr.\ de\ 2026\,\ 20_12_27.png);
     background-repeat: no-repeat;
     background-size: cover;
     
@@ -564,7 +568,16 @@ footer .interface .txt p{
 footer .interface .direitos{
     color: #ccc;
 }
-
+.principal-news .interface div{
+    width: 300px;
+    height: 280px;
+    border-radius: 15px ;
+    
+    display: flex;
+    padding: 30px 30px 30px 30px;
+    margin-top:100px ;
+    background-color: gray;
+}
 
 
 
