@@ -139,8 +139,37 @@
         </div>
         <section class="overlay"></section>
     </section>
+    <section class="imc">
 
-    
+    <div class="itensImc">
+
+        <h2>CONSULTE O SEU IMC</h2>
+
+        <input type="number" id="peso" placeholder="Peso (kg)">
+
+        <input type="number" id="altura" placeholder="Altura (m)">
+
+        <button onclick="calcularIMC()">
+            CALCULAR IMC
+        </button>
+
+        <button id="btnResultado" onclick="mostrarResultado()">
+            MOSTRAR RESULTADO
+        </button>
+
+        <div id="resultadoIMC">
+
+            <h3 id="valorIMC"></h3>
+
+            <p id="classificacao"></p>
+
+        </div>
+
+    </div>
+
+</section>
+
+    <script src="./js/script.js"></script>
 </body>
 <footer>
     <div class="interface">
@@ -152,6 +181,9 @@
                     <button><i class="bi bi-telephone"></i></button></a>
                 <a href="tel=+5527996243468">
                     <button><i class="bi bi-envelope"></i></button></a>
+                    <button id="temaBtn" onclick="trocarTema()">
+    <i class="bi bi-moon-fill"></i>
+</button>
             </div>
         </section>
         <div class="outros">
